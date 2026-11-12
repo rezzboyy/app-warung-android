@@ -212,3 +212,24 @@ Dokumen ini memuat daftar tugas dan tahapan pengembangan aplikasi kasir & pembuk
   - [x] Verifikasi dan instalasi langsung di HP fisik OnePlus 7 Pro (`GM1910` via ADB `eee39b64`).
   - [x] Uji eksekusi langsung ekspor DOCX (`Laporan_Lengkap_Warung.docx` berhasil digenerate di cache dan ditarik).
 
+---
+
+## Fase 14: Implementasi Sistem Pembaruan Otomatis (OTA) & Skrip Rilis 1-Klik (`release.ps1`)
+- [x] **14.1 Pembuatan Keystore Rilis Permanen**
+  - [x] Keystore `warung_release.jks` dibuat dengan algoritma RSA 2048-bit, masa berlaku 10.000 hari (hingga tahun 2054).
+  - [x] Konfigurasi `signingConfigs` pada `build.gradle.kts` diselaraskan untuk build `release` dan `debug` (mencegah konflik signature saat in-place OTA update).
+- [x] **14.2 Engine Pengecekan & Unduhan Pembaruan (`GitHubUpdateManager.kt`)**
+  - [x] Client OTA mandiri terintegrasi ke GitHub Releases API (`rezzboyy/app-warung-android`).
+  - [x] Pengecekan versi semantik otomatis (`isRemoteVersionNewer`) saat aplikasi dibuka (*cold start*).
+  - [x] Unduhan streaming APK dengan progress bar dan peluncuran instan Android `PackageInstaller` via `FileProvider`.
+  - [x] Izin Android: `INTERNET`, `ACCESS_NETWORK_STATE`, dan `REQUEST_INSTALL_PACKAGES` (Android 8.0+ Unknown Sources).
+- [x] **14.3 Komponen Antarmuka Dialog Pembaruan (`AppUpdateDialogFragment.kt`)**
+  - [x] Tampilan dialog Material 3 dengan badge versi, estimasi ukuran file APK, dan catatan pembaruan (*changelog*).
+  - [x] Indikator progress unduhan real-time (0% s/d 100%).
+  - [x] Tombol "Periksa Pembaruan Sistem (OTA)" manual pada menu Pengaturan Toko (`SettingsDialogFragment.kt`).
+- [x] **14.4 Skrip Otomasi Rilis 1-Klik (`release.ps1`) & Rilis Perdana GitHub**
+  - [x] Skrip PowerShell `release.ps1` untuk auto-bump versi, kompilasi APK release bertanda tangan, git commit & tag, dan publikasi langsung ke GitHub Releases via GitHub CLI (`gh`).
+  - [x] Inisialisasi Git & pembuatan repositori publik `rezzboyy/app-warung-android`.
+  - [x] Publikasi rilis perdana `v1.0.1` (Version Code 2) sukses diunggah ke GitHub Releases.
+
+
