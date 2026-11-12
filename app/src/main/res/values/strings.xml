@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App Warung</string>
+    <string name="nav_pos">Kasir</string>
+    <string name="nav_products">Produk</string>
+    <string name="nav_debts">Kasbon</string>
+    <string name="nav_reports">Laporan</string>
+</resources>

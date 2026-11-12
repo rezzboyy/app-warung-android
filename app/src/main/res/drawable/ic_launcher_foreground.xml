@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Store Base Platform -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M24,78 L84,78 L82,82 L26,82 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M25,76 L83,76 L84,78 L24,78 Z" />
+
+    <!-- Store Wall / Body Background -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M30,44 L78,44 L78,76 L30,76 Z" />
+
+    <!-- Left Store Window -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M33,50 L42,50 L42,68 L33,68 Z" />
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M33,58 L42,58 L42,60 L33,60 Z" />
+
+    <!-- POS Cash Register Base -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M44,63 L64,63 L66,73 L42,73 Z" />
+    <!-- Cash Drawer Line & Button -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M45,69 L63,69 L63,71 L45,71 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M53,65 L55,65 L55,67 L53,67 Z" />
+
+    <!-- POS Register Screen / Monitor -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M46,49 L62,49 L62,61 L46,61 Z" />
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M48,51 L60,51 L60,59 L48,59 Z" />
+    <!-- Screen Content: Green Chart Line & White Text -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,56 L53,53 L56,55 L58,52 L58,57 L50,57 Z" />
+
+    <!-- Printed Receipt Paper Out of Register -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,43 L63,43 L63,49 L57,49 Z" />
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M58,45 L62,45 L62,46 L58,46 Z M58,47 L61,47 L61,48 L58,48 Z" />
+
+    <!-- Awning Canopy Shadow Under Roof -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M27,44 L81,44 L81,46 L27,46 Z" />
+
+    <!-- Awning Stripes (Warung Canopy) -->
+    <!-- Stripe 1: Orange -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M27,30 L36,30 L35,44 C35,46 32,46 31,44 L27,44 Z" />
+    <!-- Stripe 2: White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,30 L45,30 L44,44 C44,46 41,46 40,44 L35,44 Z" />
+    <!-- Stripe 3: Orange -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M45,30 L54,30 L54,44 C54,46 51,46 49,44 L44,44 Z" />
+    <!-- Stripe 4: White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 L63,30 L63,44 C63,46 60,46 58,44 L54,44 Z" />
+    <!-- Stripe 5: Orange -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M63,30 L72,30 L73,44 C73,46 70,46 68,44 L63,44 Z" />
+    <!-- Stripe 6: White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,30 L81,30 L81,44 L77,44 C76,46 74,46 73,44 Z" />
+
+    <!-- Canopy Top Ridge Bar -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M26,28 L82,28 L81,31 L27,31 Z" />
+
+    <!-- Golden Coin Badge on Foreground Right -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M71,61 A8.5,8.5 0 1,0 71,78 A8.5,8.5 0 1,0 71,61 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M71,62 A7.5,7.5 0 1,0 71,77 A7.5,7.5 0 1,0 71,62 Z" />
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M71,64 A5.5,5.5 0 1,0 71,75 A5.5,5.5 0 1,0 71,64 Z" />
+    <!-- Coin Rp Symbol / Checkmark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M69,67 L70.5,67 C71.5,67 72,67.5 72,68.2 C72,68.9 71.5,69.4 70.5,69.4 L69.8,69.4 L69.8,72 L69,72 Z M69.8,67.6 L69.8,68.8 L70.4,68.8 C70.8,68.8 71.2,68.6 71.2,68.2 C71.2,67.8 70.8,67.6 70.4,67.6 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72.5,68.8 L73.3,68.8 L73.3,69.3 L72.5,69.3 Z M72.5,69.7 L73.3,69.7 L73.8,72 L73.1,72 L72.7,70.2 L72.5,70.2 L72.5,72 L71.8,72 L71.8,68.8 L72.5,68.8 Z" />
+
+</vector>
